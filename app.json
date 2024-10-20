@@ -28,6 +28,13 @@
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "description": "App para gestionar torneos de amigos de padel"
+    "description": "App para gestionar torneos de amigos de padel",
+    "plugins": [
+      "expo-router"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "scheme":""
   }
 }
